@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@show');
 
-Route::post('/contact', 'ContactController@create');
+Route::post('/contact', ['as' => 'contact', 'uses' => 'ContactController@create']);

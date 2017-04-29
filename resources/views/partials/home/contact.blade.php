@@ -9,6 +9,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <form name="sentMessage" id="contactForm" method="POST" action="{{URL::route('contact')}}">
+                        {{ csrf_field() }}
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">

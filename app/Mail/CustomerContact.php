@@ -56,7 +56,7 @@ class CustomerContact extends Mailable
         $date = Carbon::now('America/Chicago')->toDayDateTimeString();
 
         return $this->from($this->sender)
-            -with(compact('date'))
-            ->markdown('emails.contact');
+            ->markdown('emails.contact')
+            ->with(compact('date'));
     }
 }

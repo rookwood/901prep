@@ -31,7 +31,8 @@ $(function() {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message
+                    message: message,
+                    _token: $('input[name="_token"]').val()
                 },
                 cache: false,
                 success: function() {

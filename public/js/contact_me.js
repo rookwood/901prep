@@ -32,7 +32,8 @@ $(function() {
                     phone: phone,
                     email: email,
                     message: message,
-                    _token: $('input[name="_token"]').val()
+                    _token: $('input[name="_token"]').val(),
+                    'g-recaptcha-response': $('[name="g-recaptcha-response"]').val()
                 },
                 cache: false,
                 success: function() {

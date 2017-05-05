@@ -16,9 +16,9 @@ class Tutors
                 'bio' => 'Nikki Huffstetler founded 901 Prep out of a passion for helping students achieve their greatest potential. With her unique set of skills and experience, Nikki is both highly qualified and highly effective in the realm of ACT preparation. Even as a high school and college student, Nikki was helping fellow students achieve academic success. As a native Memphian, she graduated near the top of her high school class and then went on to graduate Magna Cum Laude with a B.A. in Mathematics and French from Union University in Jackson, TN. After college, Nikki went on to teach at a well-respected private school in the Memphis area. During her tenure, she developed a reputation of excellence in the areas of Mathematics and ACT Preparation. After the adoption of her son, Joshua, she decided to step out of the world of teaching and pursue her passion for one on one tutoring. With a reputation for proven results, demand for Nikki\'s time has never been higher. And so 901 Prep was born in order to ensure that the highest number of students have the opportunity to achieve their academic goals, whatever they may be.',
             ],
             [
-                'name' => 'Ashley Vassar',
+                'name' => 'Ashley Garrand',
                 'short' => 'ashley',
-                'subjects' => 'Middle school math, Algebra 1 &amp; 2, and Geometry',
+                'subjects' => 'ACT PREP, middle school math, Algebra 1 &amp; 2, and Geometry',
                 'previewImage' => 'img/team/ashley-head.png',
                 'mainImage' => 'img/team/ashley.png',
                 'bio' => 'Ashley is an athletic trainer with a strong math background. She has a BS from The University of Memphis and a Masters in Athletic Training from The University of Arkansas. Having tutored math for several years, she enjoys helping students excel. Ashley is known for building strong and encouraging relationships with her teenage students.',

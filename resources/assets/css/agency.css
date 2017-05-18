@@ -259,13 +259,21 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default .nav li a {
+        color: #333;
+    }
+
+    .navbar-shrink .nav li a {
+        color: #fff;
+    }
 }
 
 header {
     /*text-align: center;*/
     /*color: #fff;*/
     background-attachment: scroll;
-    background-image: url(../img/bridge.png);
+    background-image: url(../img/901logo.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -273,6 +281,12 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
+header a.btn-intro {
+    margin-top: 325px;
+    -webkit-box-shadow: 4px 4px 2px 0px rgba(102, 102, 102, 1);
+    -moz-box-shadow: 4px 4px 2px 0px rgba(102, 102, 102, 1);
+    box-shadow: 4px 4px 2px 0px rgba(102, 102, 102, 1);}
 
 header .intro-text {
     padding-top: 100px;

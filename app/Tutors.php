@@ -32,7 +32,7 @@ class Tutors
                 'bio' => 'Caroline Hollis is not your average math tutor. She holds a Bachelor of Science in Mathematics and a Masters in Education. With 11 years experience in the classroom - and a few of those as department chair - she is a master educator in the field of mathematics. During her tenure, Caroline taught almost every course available to high-school students. In 3 years of AP Calculus instruction, her students earned 93% pass rate and an average score of 4.4. As the instructor for Dual Enrollment (College Algebra / Elementary Calculus) with the University of Memphis, she also earned the title of adjunct professor. There are very few people in Memphis better-suited to advanced math education.',
             ],
             [
-                'name' => 'Clay Adkinson',
+                'name' => 'Clay Adkison',
                 'short' => 'clay',
                 'subjects' => 'ACT prep, math, and sciences',
                 'previewImage' => 'img/team/clay.jpg',

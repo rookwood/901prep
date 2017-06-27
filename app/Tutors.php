@@ -58,6 +58,14 @@ class Tutors
                 'bio' => 'Born and raised in Memphis, Haley returned here to work as a nurse after studying at Union University in Jackson, TN. She graduated with a Bachelor of Science in Nursing as well as a Bachelor of Art in Spanish and now works as a Neonatal Intensive Care nurse at St. Francis Hospital here in Memphis. She enjoys teaching and helping others achieve their academic ambitions. She has worked at Foreign Language Immersion Childcare Center in Harbortown, lived in Costa Rica while studying Spanish at Universidad Veritas, and desires to work towards being a licensed medical interpreter. With previous tutoring experience, she is looking forward to new adventures and endeavors with the 901 Prep team.',
                 'customWidth' => '225px',
             ],
+            [
+                'name' => 'Anna Hedgepeth',
+                'short' => 'anna',
+                'subjects' => 'ACT prep, writing and editing essays for college application, high-school sciences, geometry, and precalculus',
+                'previewImage' => 'img/team/anna-head.jpg',
+                'mainImage' => 'img/team/anna.jpg',
+                'bio' => 'Anna is a middle school teacher with vast experience tutoring high school students in multiple subjects, including standardized test taking.  She has a BS from Cornell University where she majored in Human Development and minored in Education.  As someone who believes in a growth mindset for students rather than fixed intelligence, Anna enjoys helping students set tangible goals and establish the habits and methods of study that work for her individual students.',
+            ],
         ]);
     }
 }

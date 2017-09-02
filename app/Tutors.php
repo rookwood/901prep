@@ -65,6 +65,7 @@ class Tutors
                 'previewImage' => 'img/team/anna-head.jpg',
                 'mainImage' => 'img/team/anna.jpg',
                 'bio' => 'Anna is a middle school teacher with vast experience tutoring high school students in multiple subjects, including standardized test taking.  She has a BS from Cornell University where she majored in Human Development and minored in Education.  As someone who believes in a growth mindset for students rather than fixed intelligence, Anna enjoys helping students set tangible goals and establish the habits and methods of study that work for her individual students.',
+                'customWidth' => '200px',
             ],
         ]);
     }

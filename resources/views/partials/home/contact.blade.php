@@ -41,6 +41,7 @@
                             </div>
                         </div>
                     </form>
+                    <p class="phone-contact">We can also be reached by phone at <a href="tel:+19012892564">(901)289-2564</a></p>
                 </div>
             </div>
         </div>

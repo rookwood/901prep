@@ -67,6 +67,24 @@ class Tutors
                 'bio' => 'Anna is a middle school teacher with vast experience tutoring high school students in multiple subjects, including standardized test taking.  She has a BS from Cornell University where she majored in Human Development and minored in Education.  As someone who believes in a growth mindset for students rather than fixed intelligence, Anna enjoys helping students set tangible goals and establish the habits and methods of study that work for her individual students.',
                 'customWidth' => '200px',
             ],
+            [
+                'name' => 'Caleb Gallops',
+                'short' => 'caleb',
+                'subjects' => 'ACT prep, science, and math',
+                'previewImage' => 'img/team/caleb-head.jpg',
+                'mainImage' => 'img/team/caleb.jpg',
+                'bio' => 'Caleb has a B.S. in Chemistry with a minor in Physics from Loyola University New Orleans and is currently working towards a PhD in Physical Chemistry at the University of Memphis. He enjoys seeing students solve difficult problems in their math and science classes. His previous tutoring experience includes high school math, chemistry and physics.',
+                'customWidth' => '200px',
+            ],
+            [
+                'name' => 'Sabrina mcCullough',
+                'short' => 'sabrina',
+                'subjects' => 'ACT prep and math',
+                'previewImage' => 'img/team/sabrina-head.jpg',
+                'mainImage' => 'img/team/sabrina.jpg',
+                'bio' => 'Sabrina McCullough has taught in one of the city’s best private schools for the past 38 years. The majority of those years she’s taught Geometry. Sabrina has also been an adjunct professor through the University of Memphis by teaching Dual Enrollment to high school seniors. Sabrina has a B.S. in mathematics from Christian Brothers University and an M.S. in mathematics from the University of Memphis.',
+                'customWidth' => '200px',
+            ],
         ]);
     }
 }

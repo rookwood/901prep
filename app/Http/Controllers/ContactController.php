@@ -24,7 +24,7 @@ class ContactController extends Controller
         list($name, $phone, $email, $message) = array_values($request->only(['name', 'phone', 'email', 'message']));
 
         try {
-            $this->mail->to('nikki@901prep.com')
+            $this->mail->to(config('mail.contactEmail'))
                 ->send(new CustomerContact($name, $phone, $email, $message));
 
             return Response::json('Message sent', 201);

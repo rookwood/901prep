@@ -120,4 +120,6 @@ return [
         ],
     ],
 
+    'contactEmail' => env('APP_CONTACT_EMAIL'),
+
 ];

@@ -30,6 +30,16 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="https://www.instagram.com/901prep/">
+                            <i class="fa fa-2x fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/901Prep/">
+                            <i class="fa fa-2x fa-facebook"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

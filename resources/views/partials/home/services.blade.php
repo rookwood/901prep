@@ -73,14 +73,14 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/logos/mexican_flag.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/logos/science.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Spanish</h4>
+                                    <h4>Science</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Spanish tutoring is now available! Need help with your foreign language requirement? Want to improve grammar, vocabulary, and conversational skills? We cover middle-, high school-, and college-level Spanish classes. Introductory classes also available.</p>
+                                    <p class="text-muted">Don't understand Newton's Laws of Motion? Trouble remembering the difference between ethane and ethene? Need someone to help you understand biogenesis or volcanic rock formation? We can cover all the science content you need!</p>
                                 </div>
                             </div>
                         </li>

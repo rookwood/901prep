@@ -67,15 +67,15 @@ class Tutors
             //     'bio' => 'Anna is a middle school teacher with vast experience tutoring high school students in multiple subjects, including standardized test taking.  She has a BS from Cornell University where she majored in Human Development and minored in Education.  As someone who believes in a growth mindset for students rather than fixed intelligence, Anna enjoys helping students set tangible goals and establish the habits and methods of study that work for her individual students.',
             //     'customWidth' => '200px',
             // ],
-            [
-                'name' => 'Caleb Gallops',
-                'short' => 'caleb',
-                'subjects' => 'ACT prep, science, and math',
-                'previewImage' => 'img/team/caleb-head.jpg',
-                'mainImage' => 'img/team/caleb.jpg',
-                'bio' => 'Caleb has a B.S. in Chemistry with a minor in Physics from Loyola University New Orleans and is currently working towards a PhD in Physical Chemistry at the University of Memphis. He enjoys seeing students solve difficult problems in their math and science classes. His previous tutoring experience includes high school math, chemistry and physics.',
-                'customWidth' => '200px',
-            ],
+            // [
+            //     'name' => 'Caleb Gallops',
+            //     'short' => 'caleb',
+            //     'subjects' => 'ACT prep, science, and math',
+            //     'previewImage' => 'img/team/caleb-head.jpg',
+            //     'mainImage' => 'img/team/caleb.jpg',
+            //     'bio' => 'Caleb has a B.S. in Chemistry with a minor in Physics from Loyola University New Orleans and is currently working towards a PhD in Physical Chemistry at the University of Memphis. He enjoys seeing students solve difficult problems in their math and science classes. His previous tutoring experience includes high school math, chemistry and physics.',
+            //     'customWidth' => '200px',
+            // ],
             [
                 'name' => 'Sabrina mcCullough',
                 'short' => 'sabrina',
@@ -103,6 +103,15 @@ class Tutors
                 'bio' => 'Megan is a Middle School English teacher with a Bachelor’s Degree in English from the University of Memphis and a Master of Arts in Education from Union University. Megan loves reading and writing and helping others learn to love to learn. She excels at writing instruction and feedback, as well as motivating teenagers. Megan is more than willing to communicate in puns if necessary.',
                 'customWidth' => '200px',
             ],
+            [
+                'name' => 'Linda Avery',
+                'short' => 'linda',
+                'subjects' => 'ACT prep, Math, and Physics',
+                'previewImage' => 'img/team/linda.jpg',
+                'mainImage' => 'img/team/linda.jpg',
+                'bio' => 'Linda is a Math and Physics teacher with an Electrical Engineering Degree from the University of Memphis and two decades of teaching experience. Linda enjoys complex mathematical concepts and applied physics experimentation. She teaches Algebra I & II, Pre-Calculus, Geometry, Calculus, AP Calculus, Physical Science, and Physics. Linda’s heart for mathematics is only exceeded by her love for students excelling in the subject.',
+                'customWidth' => '200px',
+            ]
         ]);
     }
 }

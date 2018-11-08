@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ContactRequest;
 use App\Mail\CustomerContact;
 use Illuminate\Contracts\Mail\Mailer;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Response;
 
 class ContactController extends Controller
@@ -27,6 +28,9 @@ class ContactController extends Controller
             $this->mail->to(config('mail.contactEmail'))
                 ->send(new CustomerContact($name, $phone, $email, $message));
 
+            Log::info("Mail request from {$name} ({$phone}})");
+            Log::info("Sent email from {$email} with attached message: {$message}");
+            
             return Response::json('Message sent', 201);
         } catch (Exception $e) {
             return Response::json($e->getMessage(), 500);

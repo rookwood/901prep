@@ -4,6 +4,7 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
                     <h3 class="section-subheading text-muted">What can we do for you?</h3>
+                    <p class="contact-info-warning">Please do not use this form to cancel or reschedule appointments. This is best done by emailing your tutor or via phone.</p>
                 </div>
             </div>
             <div class="row">

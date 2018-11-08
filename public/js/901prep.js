@@ -1159,8 +1159,8 @@ $(function() {
             var phone = $('input#phone').val();
             var message = $('textarea#message').val();
             if (
-                (message.toLowerCase().includes('cancel') ||
-                    message.toLowerCase().includes('reschedule')) &&
+                (!message.toLowerCase().includes('cancel') &&
+                    !message.toLowerCase().includes('reschedule')) ||
                 window.confirm(
                     'We suggest sending an email directly to your tutor or contacting via phone when you want to cancel or reschedule a session.  Do you want to send this message anyway?'
                 )

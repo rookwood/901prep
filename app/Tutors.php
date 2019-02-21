@@ -23,14 +23,14 @@ class Tutors
                 'mainImage' => 'img/team/ashley.png',
                 'bio' => 'Ashley is an athletic trainer with a strong math background. She has a BS from The University of Memphis and a Masters in Athletic Training from The University of Arkansas. Having tutored math for several years, she enjoys helping students excel. Ashley is known for building strong and encouraging relationships with her teenage students.',
             ],
-            [
-                'name' => 'Caroline Hollis',
-                'short' => 'caroline',
-                'subjects' => 'ACT prep, upper-level, AP, and college mathematics',
-                'previewImage' => 'img/team/caroline-head.jpg',
-                'mainImage' => 'img/team/caroline.jpg',
-                'bio' => 'Caroline Hollis is not your average math tutor. She holds a Bachelor of Science in Mathematics and a Masters in Education. With 11 years experience in the classroom - and a few of those as department chair - she is a master educator in the field of mathematics. During her tenure, Caroline taught almost every course available to high-school students. In 3 years of AP Calculus instruction, her students earned 93% pass rate and an average score of 4.4. As the instructor for Dual Enrollment (College Algebra / Elementary Calculus) with the University of Memphis, she also earned the title of adjunct professor. There are very few people in Memphis better-suited to advanced math education.',
-            ],
+            // [
+            //     'name' => 'Caroline Hollis',
+            //     'short' => 'caroline',
+            //     'subjects' => 'ACT prep, upper-level, AP, and college mathematics',
+            //     'previewImage' => 'img/team/caroline-head.jpg',
+            //     'mainImage' => 'img/team/caroline.jpg',
+            //     'bio' => 'Caroline Hollis is not your average math tutor. She holds a Bachelor of Science in Mathematics and a Masters in Education. With 11 years experience in the classroom - and a few of those as department chair - she is a master educator in the field of mathematics. During her tenure, Caroline taught almost every course available to high-school students. In 3 years of AP Calculus instruction, her students earned 93% pass rate and an average score of 4.4. As the instructor for Dual Enrollment (College Algebra / Elementary Calculus) with the University of Memphis, she also earned the title of adjunct professor. There are very few people in Memphis better-suited to advanced math education.',
+            // ],
             // [
             //     'name' => 'Clay Adkison',
             //     'short' => 'clay',

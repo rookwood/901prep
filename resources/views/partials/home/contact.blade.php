@@ -17,6 +17,9 @@
                                     <input type="text" class="form-control" name="name" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
+                                <div class="form-group" style="position: absolute; left: -9999px;">
+                                    <input type="text" class="form-control" name="user_id" placeholder="Leave this empty" id="user_id">
+                                </div>
                                 <div class="form-group">
                                     <input type="email" class="form-control" name="email" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>

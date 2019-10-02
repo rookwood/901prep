@@ -24,13 +24,22 @@ class ContactController extends Controller
     {
         list($name, $phone, $email, $message) = array_values($request->only(['name', 'phone', 'email', 'message']));
 
+        $spam = $request->get('user_id', false);
+
+        if ($spam) {
+            Log::info('------User_id field was empty; assuming safe------');
+        } else {
+            Log::info('------User_id field completed; assuming SPAM------');
+        }
+
         try {
             $this->mail->to(config('mail.contactEmail'))
-                ->send(new CustomerContact($name, $phone, $email, $message));
+                ->send(new CustomerContact($name, $phone, $email, $message, $spam));
 
             Log::info("Mail request from {$name} ({$phone}})");
             Log::info("Sent email from {$email} with attached message: {$message}");
-            
+            Log::info("-----------------------------------------------------------");
+
             return Response::json('Message sent', 201);
         } catch (Exception $e) {
             return Response::json($e->getMessage(), 500);

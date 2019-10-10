@@ -41,15 +41,13 @@ class CustomerContact extends Mailable
      * @param $phone
      * @param $sender
      * @param $message
-     * @param $spam
      */
-    public function __construct($name, $phone, $sender, $message, $spam)
+    public function __construct($name, $phone, $sender, $message)
     {
         $this->name    = $name;
         $this->phone   = $phone;
         $this->sender  = $sender;
         $this->message = $message;
-        $this->spam    = $spam;
     }
 
     /**
@@ -62,7 +60,7 @@ class CustomerContact extends Mailable
         $date = Carbon::now('America/Chicago')->toDayDateTimeString();
 
         return $this->from($this->sender)
-            ->subject($this->spam ? 'Contact form message' : 'Suspected spam message')
+            ->subject('Contact form message')
             ->markdown('emails.contact')
             ->with(compact('date'));
     }

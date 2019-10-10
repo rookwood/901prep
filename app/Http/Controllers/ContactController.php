@@ -24,17 +24,9 @@ class ContactController extends Controller
     {
         list($name, $phone, $email, $message) = array_values($request->only(['name', 'phone', 'email', 'message']));
 
-        $spam = $request->get('user_id', false);
-
-        if ($spam) {
-            Log::info('------User_id field was empty; assuming safe------');
-        } else {
-            Log::info('------User_id field completed; assuming SPAM------');
-        }
-
         try {
             $this->mail->to(config('mail.contactEmail'))
-                ->send(new CustomerContact($name, $phone, $email, $message, $spam));
+                ->send(new CustomerContact($name, $phone, $email, $message));
 
             Log::info("Mail request from {$name} ({$phone}})");
             Log::info("Sent email from {$email} with attached message: {$message}");

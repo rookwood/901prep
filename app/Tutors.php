@@ -77,7 +77,7 @@ class Tutors
             //     'customWidth' => '200px',
             // ],
             [
-                'name' => 'Sabrina mcCullough',
+                'name' => 'Sabrina McCullough',
                 'short' => 'sabrina',
                 'subjects' => 'ACT prep and math',
                 'previewImage' => 'img/team/sabrina-head.jpg',
@@ -94,15 +94,15 @@ class Tutors
                 'bio' => 'Holden is a local Memphian who graduated high school near the top of his class with State and District honors and distinction. He loves to help students find an obtainable goal and reach it! Holden is currently pursuing a B.F.A with a concentration of Graphic Design, a B.A. in Spanish, and a minor in Music Performance at the University of Memphis.',
                 'customWidth' => '200px',
             ],
-            [
-                'name' => 'Megan Tate',
-                'short' => 'megan',
-                'subjects' => 'ELA skills, Research Papers, College App Essays, ACT Writing, General Study Skills',
-                'previewImage' => 'img/team/megan-head.jpg',
-                'mainImage' => 'img/team/megan.jpg',
-                'bio' => 'Megan is a Middle School English teacher with a Bachelor’s Degree in English from the University of Memphis and a Master of Arts in Education from Union University. Megan loves reading and writing and helping others learn to love to learn. She excels at writing instruction and feedback, as well as motivating teenagers. Megan is more than willing to communicate in puns if necessary.',
-                'customWidth' => '200px',
-            ],
+            // [
+            //     'name' => 'Megan Tate',
+            //     'short' => 'megan',
+            //     'subjects' => 'ELA skills, Research Papers, College App Essays, ACT Writing, General Study Skills',
+            //     'previewImage' => 'img/team/megan-head.jpg',
+            //     'mainImage' => 'img/team/megan.jpg',
+            //     'bio' => 'Megan is a Middle School English teacher with a Bachelor’s Degree in English from the University of Memphis and a Master of Arts in Education from Union University. Megan loves reading and writing and helping others learn to love to learn. She excels at writing instruction and feedback, as well as motivating teenagers. Megan is more than willing to communicate in puns if necessary.',
+            //     'customWidth' => '200px',
+            // ],
             [
                 'name' => 'Linda Avery',
                 'short' => 'linda',

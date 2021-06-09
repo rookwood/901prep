@@ -4,10 +4,8 @@ namespace App\Mail;
 
 use Carbon\Carbon;
 use Illuminate\Bus\Queueable;
-use Illuminate\Http\Request;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
 class CustomerContact extends Mailable
 {
@@ -30,7 +28,7 @@ class CustomerContact extends Mailable
      */
     public $message;
     /**
-     * @var Suspected spam message
+     * @var bool Suspected spam message
      */
     private $spam;
 

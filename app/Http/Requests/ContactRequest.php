@@ -28,7 +28,7 @@ class ContactRequest extends FormRequest
             'email'                => 'required|email',
             'message'              => 'required',
             'phone'                => 'required',
-            'g-recaptcha-response' => 'required|captcha',
+            'g-recaptcha-response' => config('app.env') == 'production' ? 'required|captcha' : '',
         ];
     }
 

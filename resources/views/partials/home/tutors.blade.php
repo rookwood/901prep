@@ -13,7 +13,7 @@
                         <a href="#portfolioModal-{{ $tutor['short'] }}" class="portfolio-link" data-toggle="modal">
                             <div class="col-sm-4">
                                 <div class="team-member">
-                                    <img src="{{ $tutor['previewImage'] }}" class="img-responsive img-circle" alt="" width="{{$tutor['customWidth'] or '' }}">
+                                    <img src="{{ $tutor['previewImage'] }}" class="img-responsive img-circle" alt="" width="{{$tutor['customWidth'] ?? '' }}">
                                     <h4>{{ $tutor['name'] }}</h4>
                                     <p class="text-muted">{{ $tutor['subjects'] }}</p>
                                 </div>

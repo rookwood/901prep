@@ -26,10 +26,10 @@ class ContactController extends Controller
 
         if (str_contains($message, 'http')) {
             // Likely spam
-            Log::info('------------Likely spam message------------');
-            Log::info("Mail request from {$name} ({$phone}})");
-            Log::info("Did not send email from {$email} with attached message: {$message}");
-            Log::info("-----------------------------------------------------------");
+            // Log::info('------------Likely spam message------------');
+            // Log::info("Mail request from {$name} ({$phone}})");
+            // Log::info("Did not send email from {$email} with attached message: {$message}");
+            // Log::info("-----------------------------------------------------------");
 
             return Response::json('Sorry, this looks like spam.  We don\'t allow URLs in contact info', 422);
         }
@@ -38,9 +38,9 @@ class ContactController extends Controller
             $this->mail->to(config('mail.contactEmail'))
                 ->send(new CustomerContact($name, $phone, $email, $message));
 
-            Log::info("Mail request from {$name} ({$phone}})");
-            Log::info("Sent email from {$email} with attached message: {$message}");
-            Log::info("-----------------------------------------------------------");
+            // Log::info("Mail request from {$name} ({$phone}})");
+            // Log::info("Sent email from {$email} with attached message: {$message}");
+            // Log::info("-----------------------------------------------------------");
 
             return Response::json('Message sent', 201);
         } catch (Exception $e) {
